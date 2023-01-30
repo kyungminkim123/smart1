@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<article>
+			<table border="1" style="width: 50%; border-collapse: collapse;">
+				<tr height="30px" style="background-color: gray;">
+					<th width="30%">이름</th>
+					<th style="background-color: orange;">점수</th>
+				</tr>
+				<tr>
+					<td>김정화</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>제니</td>
+					<td>95</td>
+				</tr>
+				<tr>
+					<td>지수</td>
+					<td>90</td>
+				</tr>
+			</table>
+		</article>
+	</section>
+</body>
+</html>

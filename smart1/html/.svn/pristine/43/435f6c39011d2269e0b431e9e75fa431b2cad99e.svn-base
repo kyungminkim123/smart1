@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<people>
+		<person>
+			<name>전은석</name>
+			<age>29</age>
+			<id>euns</id>
+		</person>
+		<person>
+			<name>기혁주</name>
+			<age>25</age>
+			<id>khj</id>
+		</person>
+	</people>
+</body>
+</html>

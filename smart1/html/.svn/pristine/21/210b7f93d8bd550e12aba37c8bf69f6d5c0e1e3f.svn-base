@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>태그의 속성1</title>
+<style type="text/css">
+
+	/*  
+		아이디가 s1인태그와 d1인 태그를 선택해서 적용시키는 방법...
+	*/
+	/* #s1, #d1 {
+		display: inline-block;
+		height: 50px;
+	} */
+	
+	/* 
+		클래스가 sp01인 태그를 선택해서 적용시키는 방법
+	*/
+	/*
+	.sp01 {
+		display: inline-block;
+		height: 50px;
+	} */
+	
+	div > span, div > div {
+	/* 
+		div 태그의 자식태그중 span와
+		div 태그의 자식태그중 div 를 선택해서 
+		아래내용을 적용시켜주세요.
+	 */
+		display: inline-block;
+		height: 50px;
+	}
+	
+	#s1 {
+		width: 200px;
+		background-color: pink;
+	}
+	
+	#d1 {
+		width: 300px; 
+		border: 1px solid gray; 
+		text-align: right;
+	}
+</style>
+</head>
+<body>
+	<div style="text-align: center;">
+		<span id="s1" class="sp01">여기는 span 태그</span>
+		<div id="d1" class="sp01">
+			여기는 div 태그
+		</div>
+	</div>
+</body>
+</html>

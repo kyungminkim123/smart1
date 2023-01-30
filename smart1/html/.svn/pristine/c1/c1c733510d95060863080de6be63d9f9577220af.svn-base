@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3><a href="test01.html">test01.html</a></h3>
+	<!--  
+		==> href="./test01.html"
+	-->
+	<h3><a href="./test02.html">test02.html</a></h3>
+	<h3><a href="../day02/test01.html">day02/test01.html</a></h3>
+	<h3><a href="D:\smart\html\source\smart1\day01\test01.html">day01/test01.html</a></h3>
+	<h3><a href="javascript:alert('자바스크립트 실행')">alert function</a></h3>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Check Box</title>
+<style type="text/css">
+	.content {
+		width: 50%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.title {
+		background-color: dodgerblue;
+		color: white;
+	}
+	.lbl {
+		width: 20%;
+		float: left;
+		text-align: right;
+	}
+	.subj {
+		width: 80%;
+		float: left;
+	}
+	.ck {
+		width: 30%;
+		float: left;
+		text-align: right;	
+	}
+	.vtxt {
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	
+	.btn {
+		display: inline-block;
+		width: 32%;
+		height: 40px;
+		font-size: 16pt;
+	}
+	#btn1 {/* home button */
+		background-color: green;
+	}
+	#btn2 {/* reset button */
+		background-color: blue;
+		color: white;
+	}
+	#btn3 {/* submit button */
+		background-color: red;
+	}
+	.bfr {
+		clear: left;
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}
+</style>
+</head>
+<body>
+	<div class="content">
+		<h1 class="title">Check Box</h1>
+		<form method="GET" action="result.html" name="frm" id="frm" class="frm">
+			<label class="lbl">과 목 : </label>
+			<div class="subj">
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="java" checked>
+					</div>
+					<div class="vtxt">
+						Java
+					</div>
+				</div>
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="HTML">
+					</div>
+					<div class="vtxt">
+						HTML
+					</div>
+				</div>
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="JavaScript">
+					</div>
+					<div class="vtxt">
+						JavaScript
+					</div>
+				</div>
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="Oracle" checked>
+					</div>
+					<div class="vtxt">
+						Oracle
+					</div>
+				</div>
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="JSP">
+					</div>
+					<div class="vtxt">
+						JSP
+					</div>
+				</div>
+				<div>
+					<div class="ck">
+						<input type="checkbox" name="subj" value="Spring">
+					</div>
+					<div class="vtxt">
+						Spring
+					</div>
+				</div>
+			</div>
+			<div class="bfr">
+				<input type="button" class="btn" id="btn1" value="home">
+				<input type="reset" class="btn" id="btn2" value="reset">
+				<input type="submit" class="btn" id="btn3" value="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

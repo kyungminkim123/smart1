@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Tag Link</title>
+<style type="text/css">
+	.content {
+ 		margin: 0px auto;
+		width: 50%;
+		text-align: center;
+	}
+	
+	/* 버튼태그 스타일 */
+	.btn {
+		display: inline-block;
+		width: 150px;
+		height: 25px;
+		background-color: orange;
+		border: 3px dotted lightgray;
+	}
+	a {
+		text-decoration: none;
+	}
+</style>
+</head>
+<body>
+	<div class="content">
+		<h1 style="background-color: purple; color: white; padding: 20px;">Image Tag Link</h1>
+		<div>
+			<a href="https://www.w3schools.com/html/default.asp"
+					target="_blank" style="font-size: 0pt;">
+			<!-- 
+				font-size: 0pt;
+				==> 하위의 모든 태그들은 텍스트 크기가 0으로 셋팅된다.
+					따라서 추가되는 텍스트는 모두 크기를 가지지 않는다.
+			 -->
+				<img src="../img/html5.png" width="100px" height="auto">
+			</a>
+			<hr>
+		</div>
+		<div>
+			<a href="../day03/test01.html" target="_blank">
+				<div class="btn">test01</div>
+			</a>
+			<a href="../day03/test02.html" target="_blank">
+				<div class="btn">test02</div>
+			</a>
+			<a href="../day03/test03.html" target="_blank">
+				<div class="btn">test03</div>
+			</a>
+			<a href="../day03/test04.html" target="_blank">
+				<div class="btn">test04</div>
+			</a>
+			<a href="../day03/test05.html" target="_blank">
+				<div class="btn">test05</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
